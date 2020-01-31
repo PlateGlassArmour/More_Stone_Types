@@ -166,6 +166,26 @@
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
+	    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BasaltOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Basalt refining</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Stone_Basalt" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.6" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.175" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="30" TypeId="Ore" SubtypeId="Ice" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
